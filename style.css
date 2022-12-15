@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+
+}
+
+/* header */
+.header_wrap {
+    display: flex;
+}
+
+.header-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 150px;
+}
+
+.header {
+    background-color: hsl(300, 13%, 22%);
+    color: white;
+}
+
+.header-img {
+    border-radius: 50%;
+
+    margin-top: 40px;
+
+    margin-bottom: 40px;
+}
+
+
+
+/* objective */
+
+.objective {
+    background-color: white;
+}
+
+.objective-heading {
+    padding-bottom: 45px;
+    padding-top: 65px;
+}
+
+.objective-text {
+    padding-bottom: 15px;
+}
+
+/* experience */
+
+.experience {
+    background-color: white;
+}
+
+.experience-heading {
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+
+.experience-wrapper {
+    display: flex;
+
+}
+
+.experience-text {
+    padding-right: 102px;
+}
+
+.experience-content {
+    padding-left: 180px;
+}
+
+/* skills */
+
+.skills {
+    background-color: white;
+}
+
+.skills-title {
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.skills-text {
+    padding-bottom: 15px;
+}
+
+/* language */
+
+.language {
+    background-color: white;
+}
+
+.language-title {
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.language-list {
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+
+
+/* form */
+
+.form {
+    background-color: rgb(240, 201, 201);
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-wrapper-text {
+    background-color: azure;
+    outline: none;
+    margin: 10px;
+    border: none;
+    border-bottom: solid 5px;
+}
+
+
+.form-input {
+    width: 15%;
+    text-align: center;
+}
+
+.form-wrapper-text,
+input.form-input {
+    width: 100%;
+}
+
+button {
+    width: 140px;
+    height: 40px;
+    background-color: bisque;
+    border: none;
+
+}
+
+button:hover {
+    background-color: azure;
+}
+
+
+/* contact */
+
+.fotter {
+    padding: 50px 0 0 0;
+    text-align: center;
+    background-color: rgb(231, 212, 189);
+}
+
+.contacts-title {
+    padding: 20px 0;
+}
+
+.contacts-list {
+    padding: 20px 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
